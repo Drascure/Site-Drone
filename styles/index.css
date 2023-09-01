@@ -3,6 +3,10 @@ html {
     margin: 0;
  }
 
+ body {
+    position: relative;
+ }
+
 #logo {
     position: relative;
     width: 10%;
@@ -21,3 +25,17 @@ header , footer {
     text-align: center;
     width: auto;
 }
+
+.presentation {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ h1 {
+    position: absolute;
+    color: white;
+    font-size: 4em;
+    text-shadow: black 0.1em 0.1em 0.2em
+
+ }
