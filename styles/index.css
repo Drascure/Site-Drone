@@ -1,3 +1,8 @@
+html {
+    height: 100%;
+    margin: 0;
+ }
+
 #logo {
     position: relative;
     width: 10%;
@@ -5,4 +10,14 @@
 
 .icone {
     width: 5%;
+}
+
+#photo-intro {
+    width: 100%;
+}
+
+header , footer {
+    margin: auto;
+    text-align: center;
+    width: auto;
 }
