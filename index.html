@@ -3,26 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/index.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>MasterDrone</title>
 </head>
 
 <body>
     <header>
-        <a href="./index.html"><img src="./assets/media/logo.png" alt="logo drone" id="logo"></a>
-        <a href="./materiel.html">Matériel</a>
-        <a href="./photo.html">Clichés</a>
-        <a href="./service.html">Services</a>
-        <a href="./a-propos.html">A propos</a>
+        <nav>
+            <a href="./index.html">
+                <div><img src="./assets/media/logo.png" alt="logo drone" id="logo">
+                </div>
+            </a>
+            <input type="checkbox" id="check">
+            <!-- Le label va être lié à une div qui aura l'id désigné par l'attribut for -->
+            <label id="burger" for="check">
+                <i class="fa-solid fa-bars ma-bars"></i>
+            </label>
+            <ul>
+                <li><a href="./materiel.html">Matériel</a></li>
+                <li><a href="./photo.html">Clichés</a></li>
+                <li><a href="./service.html">Services</a></li>
+                <li><a href="./a-propos.html">A propos</a></li>
+            </ul>
+        </nav>
+        <section class="presentation">
+            <div>
+                <img src="./assets/media/route-accueil.jpg" alt="photo route" id="photo-intro">
+            </div>
+            <h1>MasterDrone</h1>
+        </section>
     </header>
 
     <main>
-        <section class="presentation">
-            <img src="./assets/media/route-accueil.jpg" alt="photo route" id="photo-intro">
-            <h1>MasterDrone</h1>
-        </section>
-
-    
+        <p>acceuil</p>
     </main>
 
     <footer>

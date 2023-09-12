@@ -3,17 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/index.css">
-    <title>Matériels</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>MasterDrone</title>
 </head>
 
 <body>
     <header>
-        <a href="./index.html"><img src="./media/photo drone.jpg" alt="logo drone" id="logo"></a>
-        <a href="./materiel.html">Matériel</a>
-        <a href="./photo.html">Clichés</a>
-        <a href="./service.html">Services</a>
-        <a href="./a-propos.html">A propos</a>
+        <nav>
+            <a href="./index.html">
+                <div><img src="./assets/media/logo.png" alt="logo drone" id="logo">
+                </div>
+            </a>
+            <input type="checkbox" id="check">
+            <!-- Le label va être lié à une div qui aura l'id désigné par l'attribut for -->
+            <label id="burger" for="check">
+                <i class="fa-solid fa-bars ma-bars"></i>
+            </label>
+            <ul>
+                <li><a href="./materiel.html">Matériel</a></li>
+                <li><a href="./photo.html">Clichés</a></li>
+                <li><a href="./service.html">Services</a></li>
+                <li><a href="./a-propos.html">A propos</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -21,10 +34,10 @@
     </main>
 
     <footer>
-        <a href="mailto:masterdrone@wanadoo.fr"><img src="./media/mail.gif" alt="icone mail" class="icone"></a>
-        <a href="https://www.instagram.com/"><img src="./media/instagram.gif" alt="icone instagram" class="icone"></a>
-        <a href="https://twitter.com/?lang=fr"><img src="./media/twitter.gif" alt="icone twitter" class="icone"></a>
-        <a href="https://www.youtube.com/"><img src="./media/youtube.gif" alt="icone youtube" class="icone"></a>
+        <a href="mailto:masterdrone@wanadoo.fr"><img src="./assets/media/mail.gif" alt="icone mail" class="icone"></a>
+        <a href="https://www.instagram.com/"><img src="./assets/media/instagram.gif" alt="icone instagram" class="icone"></a>
+        <a href="https://twitter.com/?lang=fr"><img src="./assets/media/twitter.gif" alt="icone twitter" class="icone"></a>
+        <a href="https://www.youtube.com/"><img src="./assets/media/youtube.gif" alt="icone youtube" class="icone"></a>
     </footer>
 </body>
 </html>
