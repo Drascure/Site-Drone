@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'Satisfy';
+    src: url(../font/Satisfy-Regular.ttf);
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Satisfy', sans-serif;
 }
 
 img, input {
@@ -22,7 +27,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 10vh;
+    height: 8vh;
     width: 100%;
     position: fixed;
     top: 0;
@@ -42,7 +47,53 @@ nav #burger {
 }
 nav ul {
     list-style-type: none;
-    display: none;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 110%;
+    width: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.39);
+    border-radius: 15px;
+    font-size: 80%;
+}
+
+ul li {
+    margin: 1rem;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0,0,0,1);
+    font-size: 150%;
+}
+
+li a:visited{
+    color: white;
+}
+
+ul #button {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+#button p {
+    padding: 0.5rem;
+    margin-top: -0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: rgb(0, 153, 255);
+    border-radius: 45px;
+    color: rgb(224, 224, 224);
+}
+nav .hide {
+    height: 0;
+}
+
+.show {
+    max-height: 500px;
 }
 
 header h1 {
