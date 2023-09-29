@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img, input {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+header {
+    position: relative;
+    height: 70vh;
+    background-image: url(../img/route-accueil.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 1px 10px 23px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 1px 10px 23px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 10px 23px 4px rgba(0,0,0,0.5);
+    background-color: rgba(255, 255, 255, 0.411);
+    z-index: 1;
+}
+
+nav #logo {
+    width: 100px;
+}
+nav #burger {
+    width: 50px;
+    padding-right: 15px;
+}
+nav ul {
+    list-style-type: none;
+    display: none;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    position: relative;
+    height: 10vh;
+}
+
+footer div {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+
+.icone {
+    width: 12vw;
+}
