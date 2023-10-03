@@ -3,40 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./assets/js/script.js" defer></script>
     <title>MasterDrone</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav id="nav_header">
             <a href="./index.html">
                 <div id="logo">
                     <img src="./assets/img/logo.png" alt="logo drone">
                 </div>
             </a>
-            <div id="burger">
-                <i class="fa-solid fa-bars"></i>
+            <div id="log">
+                <div id="burger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <ul class="hide">
+                    <a href="./photo.html"><li>Clichés</li></a>
+                    <a href="./a-propos.html"><li>A propos</li></a>
+                    <a href="./contact.html"><li>Contact</li></a>
+                    <li id="button">
+                        <p>Sign in</p>
+                        <p>Sign up</p>
+                    </li>
+                </ul>
+                <div id="compte">
+                    <i class="fa-solid fa-circle-user"></i>
+                </div>
             </div>
-            <ul class="hide">
-                <li><a href="./photo.html">Clichés</a></li>
-                <li><a href="./a-propos.html">A propos</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-                <li id="button">
-                    <p>Sign in</p>
-                    <p>Sign up</p>
-                    
-                </li>
-            </ul>
         </nav>
         <h1>MasterDrone</h1>
     </header>
 
     <main>
         <h2>Aucun terrain n'est inaccessible</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nisi amet labore, nesciunt, perferendis excepturi accusantium eligendi esse iusto aspernatur commodi error voluptas impedit adipisci officia, sunt non similique quisquam neque ab eveniet. Optio, sunt? Magnam cumque aspernatur mollitia incidunt nulla iure alias hic facilis totam quidem, similique adipisci quia aliquam temporibus suscipit, eos placeat commodi perferendis id cupiditate esse quae saepe nemo facere. Laboriosam omnis, quas error facere soluta perspiciatis vitae ducimus quos necessitatibus similique id doloribus! Quidem impedit corporis tempore ab labore aliquid nam iusto fuga deserunt dolore expedita, quibusdam aliquam nulla qui atque distinctio esse illo optio.</p>
+        <section>
+            <a href="" class="shooting mariage">
+                <img src="./assets/img/mariage.jpg" alt="mariage">
+                <h3>Mariages</h3>
+            </a>
+            <a href="" class="shooting soiree">
+                <img src="./assets/img/evenement.jpg" alt="evenement">
+                <h3>Événement</h3>
+            </a>
+            <a href="" class="shooting sport">
+                <img src="./assets/img/sport.jpg" alt="sport">
+                <h3>Sports</h3>
+            </a>
+            <a href="" class="shooting nature">
+                <img src="./assets/img/nature.jpg" alt="nature">
+                <h3>Nature</h3>
+            </a>
+        </section>
     </main>
 
     <footer>

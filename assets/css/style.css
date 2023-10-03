@@ -6,12 +6,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Satisfy', sans-serif;
 }
 
 img, input {
     width: 100%;
     vertical-align: bottom;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Satisfy', sans-serif;
 }
 
 header {
@@ -21,9 +27,10 @@ header {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
-nav {
+header #nav_header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,14 +45,11 @@ nav {
     z-index: 1;
 }
 
-nav #logo {
+#nav_header #logo {
     width: 100px;
 }
-nav #burger {
-    width: 50px;
-    padding-right: 15px;
-}
-nav ul {
+
+#nav_header ul {
     list-style-type: none;
     overflow: hidden;
     position: absolute;
@@ -59,22 +63,23 @@ nav ul {
     font-size: 80%;
 }
 
-ul li {
+#nav_header ul li {
     margin: 1rem;
 }
 
-li a {
+#nav_header a,
+section a {
     text-decoration: none;
     color: white;
     text-shadow: 0px 0px 5px rgba(0,0,0,1);
     font-size: 150%;
 }
 
-li a:visited{
+#nav_header a:visited{
     color: white;
 }
 
-ul #button {
+#nav_header ul #button {
     display: flex;
     justify-content: space-around;
     margin: 0;
@@ -88,12 +93,19 @@ ul #button {
     border-radius: 45px;
     color: rgb(224, 224, 224);
 }
-nav .hide {
+#nav_header .hide {
     height: 0;
 }
 
-.show {
+#nav_header .show {
     max-height: 500px;
+}
+
+#nav_header #log {
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    font-size: 1.5rem;
 }
 
 header h1 {
@@ -101,6 +113,35 @@ header h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+main h2 {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+main section {
+    width: 85%;
+    margin: auto;
+}
+
+section .shooting {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 1rem auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.shooting h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 footer {
