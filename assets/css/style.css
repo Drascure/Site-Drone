@@ -17,7 +17,7 @@ img, input {
 header {
     position: relative;
     height: 70vh;
-    background-image: url(../img/route-accueil.jpg);
+    background-image: url(../img/route-accueil-min.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -104,19 +104,17 @@ header h1 {
 }
 
 footer {
-    position: relative;
-    height: 10vh;
-}
-
-footer div {
-    width: 100%;
-    position: absolute;
+    height: 15vh;
+    background-image: url(../img/vue-fascinante-ocean-au-bord-cote-sablonneuse-min.jpg);
+    background-position: 50% 80%;
+    background-size: cover;
     display: flex;
-    justify-content: center;
     align-items: center;
-    bottom: 0;
+    justify-content: space-between;
+    padding: 0 2rem;
 }
 
-.icone {
-    width: 12vw;
+.icon_footer {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
 }
