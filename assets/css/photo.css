@@ -1,0 +1,27 @@
+header {
+    background-image: url(../img/pont_header.jpg);
+}
+
+#photo_mariage #mariage1, #photo_mariage #mariage2, #photo_mariage #mariage3, #photo_mariage #mariage4 {
+    height: 45vh;
+    background-size: cover;
+    background-position: 50% 65%;
+    background-repeat: no-repeat;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+#photo_mariage #mariage1 {
+    background-image: url(../img/mariage1.jpg);
+}
+
+#photo_mariage #mariage2 {
+    background-image: url(../img/mariage2.jpg);
+}
+
+#photo_mariage #mariage3 {
+    background-image: url(../img/mariage3.jpg);
+}
+#photo_mariage #mariage4 {
+    background-image: url(../img/mariage4.jpg);
+}
