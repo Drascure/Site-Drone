@@ -1,42 +1,112 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./assets/js/script.js" defer></script>
     <title>MasterDrone</title>
-</head>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/photo.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+  </head>
 
-<body>
-    <nav>
+  <body>
+    <header>
+      <nav id="nav_header">
         <a href="./index.html">
-            <div id="logo">
-                <img src="./assets/img/logo.png" alt="logo drone">
-            </div>
+          <div id="logo">
+            <img src="./assets/img/logo.png" alt="logo drone">
+          </div>
         </a>
-        <div id="burger">
-            <img src="./assets/img/icon-hamburger.svg" alt="burger">
+        <div id="log">
+          <div id="burger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <ul class="hide">
+            <a href="./photo.html"><li>Clichés</li></a>
+            <a href="./a-propos.html"><li>A propos</li></a>
+            <a href="./contact.html"><li>Contact</li></a>
+            <li id="button">
+              <p>Sign in</p>
+              <p>Sign up</p>
+            </li>
+          </ul>
+          <div id="compte">
+            <i class="fa-solid fa-circle-user"></i>
+          </div>
         </div>
-        <ul class="hide">
-            <li><a href="./photo.html">Clichés</a></li>
-            <li><a href="./a-propos.html">A propos</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-        </ul>
-    </nav>
+      </nav>
+      <h1>MasterDrone</h1>
+    </header>
 
-    <main>
-        <h2>Aucun terrain n'est inaccessible</h2>
+    <main id="main_photo">
+      <h2>Immortalisez votre moment à vous!</h2>
+      <p>
+        Que ce soit en plein nature, pour du sport ou bien lors d'un évènement
+        festif, la solution de prise de vue aérienne par drone est polyvalente
+        et saura s'adapter à toutes circonstances, capturant chaque instants de
+        vos plus beaux moments
+      </p>
+      <section id="photo_mariage">
+        <h3>Mariages</h3>
+        <div class=" photo mariage1">
+            <!-- <img src="./assets/img/mariage1.jpg" alt="photo_mariage"> -->
+        </div>
+        <div class=" photo mariage2">
+            <!-- <img src="./assets/img/mariage2.jpg" alt="photo_mariage"> -->
+        </div>
+        <div class=" photo mariage3">
+            <!-- <img src="./assets/img/mariage3.jpg" alt="photo_mariage"> -->
+        </div>
+        <div class=" photo mariage4">
+            <!-- <img src="./assets/img/mariage4.jpg" alt="photo_mariage"> -->
+        </div>
+      </section>
+      <section id="photo_evenement">
+        <h3>Événement</h3>
+        <div class=" photo evenement1"></div>
+        <div class=" photo evenement2"></div>
+        <div class=" photo evenement3"></div>
+        <div class=" photo evenement4"></div>
+      </section>
+      <section id="photo_sport">
+        <h3>Sports</h3>
+        <div class="photo sport1"></div>
+        <div class="photo sport2"></div>
+        <div class="photo sport3"></div>
+        <div class="photo sport4"></div>
+      </section>
+      <section id="photo_nature">
+        <h3>Nature</h3>
+        <div class="photo nature1"></div>
+        <div class="photo nature2"></div>
+        <div class="photo nature3"></div>
+        <div class="photo nature4"></div>
+      </section>
     </main>
 
     <footer>
-        <div>
-            <a href="mailto:masterdrone@wanadoo.fr"><img src="./assets/img/mail.gif" alt="icone mail" class="icone"></a>
-            <a href="https://www.instagram.com/"><img src="./assets/img/instagram.gif" alt="icone instagram" class="icone"></a>
-            <a href="https://twitter.com/?lang=fr"><img src="./assets/img/twitter.gif" alt="icone twitter" class="icone"></a>
-            <a href="https://www.youtube.com/"><img src="./assets/img/youtube.gif" alt="icone youtube" class="icone"></a>
-        </div>
+      <a href="mailto:masterdrone@wanadoo.fr">
+        <i class="fa-solid fa-envelope icon_footer"></i>
+      </a>
+      <a href="https://www.instagram.com/">
+        <i class="fa-brands fa-instagram icon_footer"></i>
+      </a>
+      <a href="https://twitter.com/?lang=fr">
+        <i class="fa-brands fa-square-x-twitter icon_footer"></i>
+      </a>
+      <a href="https://www.youtube.com/">
+        <i class="fa-brands fa-youtube icon_footer"></i>
+      </a>
+      <a href="https://www.facebook.com/">
+        <i class="fa-brands fa-square-facebook icon_footer"></i>
+      </a>
     </footer>
-</body>
+  </body>
 </html>

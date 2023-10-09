@@ -1,0 +1,85 @@
+header {
+    background-image: url(../img/pont_header.jpg);
+}
+
+#main_photo p {
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+section .photo {
+    height: 45vh;
+    background-size: cover;
+    background-position: 50% 65%;
+    background-repeat: no-repeat;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+#photo_mariage .mariage1 {
+    background-image: url(../img/mariage1.jpg);
+}
+
+#photo_mariage .mariage2 {
+    background-image: url(../img/mariage2.jpg);
+}
+
+#photo_mariage .mariage3 {
+    background-image: url(../img/mariage3.jpg);
+    background-position: center;
+}
+#photo_mariage .mariage4 {
+    background-image: url(../img/mariage4.jpg);
+}
+
+#photo_evenement .evenement1 {
+    background-image: url(../img/evenement1.jpg);
+}
+
+#photo_evenement .evenement2 {
+    background-image: url(../img/evenement2.jpg);
+}
+
+#photo_evenement .evenement3 {
+    background-image: url(../img/evenement3.jpg);
+}
+
+#photo_evenement .evenement4 {
+    background-image: url(../img/evenement4.jpg);
+}
+
+#photo_sport .sport1 {
+    background-image: url(../img/sport1.jpg);
+    background-position: 50% 40%;
+}
+
+#photo_sport .sport2 {
+    background-image: url(../img/sport2.jpg);
+    background-position: 50% 80%;
+}
+
+#photo_sport .sport3 {
+    background-image: url(../img/sport3.jpg);
+}
+
+#photo_sport .sport4 {
+    background-image: url(../img/sport4.jpg);
+    background-position: center;
+}
+
+#photo_nature .nature1 {
+    background-image: url(../img/nature1.jpg);
+}
+
+#photo_nature .nature2 {
+    background-image: url(../img/nature2.jpg);
+}
+
+#photo_nature .nature3 {
+    background-image: url(../img/nature3.jpg);
+}
+
+#photo_nature .nature4 {
+    background-image: url(../img/nature4.jpg);
+}
