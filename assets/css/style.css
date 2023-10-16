@@ -94,15 +94,6 @@ section a {
     color: white;
 }
 
-<<<<<<< HEAD
-=======
-#nav_header ul #button {
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-}
-
->>>>>>> 9d3b9f385d2b15943bb03334ecacc213b68dc81b
 #nav_header .hide {
     height: 0;
 }
