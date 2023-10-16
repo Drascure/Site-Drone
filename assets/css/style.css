@@ -26,12 +26,22 @@ h4 {
 
 header {
     position: relative;
-    height: 70vh;
+    height: 50vh;
     background-image: url(../img/route-accueil-min.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+#nav_header #logo_about {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    position: relative;
+    color: rgb(0, 0, 0);
 }
 
 header #nav_header {
@@ -50,7 +60,8 @@ header #nav_header {
 }
 
 #nav_header #logo {
-    width: 100px;
+    width: 60px;
+    margin: 0 .8rem;
 }
 
 #nav_header ul {
@@ -83,6 +94,15 @@ section a {
     color: white;
 }
 
+<<<<<<< HEAD
+=======
+#nav_header ul #button {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+>>>>>>> 9d3b9f385d2b15943bb03334ecacc213b68dc81b
 #nav_header .hide {
     height: 0;
 }
@@ -98,14 +118,21 @@ section a {
     font-size: 1.5rem;
 }
 
-header h1 {
+header #header_about {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: bisque;
-    text-shadow: 0px 0px 8px rgba(0,0,0,1);
+    left: 10%;
+    transform: translateY(-50%);
+    font-size: 24px;
 }
+
+.contact {
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+    background-color: #419197;
+    color: white;
+}
+
 
 main h2 {
     text-align: center;
@@ -138,9 +165,7 @@ section .shooting {
 
 footer {
     height: 15vh;
-    background-image: url(../img/vue-fascinante-ocean-au-bord-cote-sablonneuse-min.jpg);
-    background-position: 50% 80%;
-    background-size: cover;
+    background-color: #12486B;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -149,5 +174,5 @@ footer {
 
 .icon_footer {
     font-size: 2rem;
-    color: rgb(0, 0, 0);
+    color: #F5FCCD;
 }
