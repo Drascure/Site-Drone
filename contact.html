@@ -25,10 +25,6 @@
                     <a href="./photo.html"><li>Clichés</li></a>
                     <a href="./a-propos.html"><li>A propos</li></a>
                     <a href="./contact.html"><li>Contact</li></a>
-                    <li id="button">
-                        <p>Sign in</p>
-                        <p>Sign up</p>
-                    </li>
                 </ul>
                 <div id="compte">
                     <i class="fa-solid fa-circle-user"></i>
@@ -40,6 +36,23 @@
 
     <main>
         <p>contact</p>
+        <form action="">
+            <label for="firstname">Prénom:
+                <input type="text" name="firstname" placeholder="Votre prénom" required>
+            </label>
+            <label for="lastname">Nom: 
+                <input type="text" name="lastname" placeholder="Votre nom" required>
+            </label>
+            <label for="phone">Téléphone: 
+                <input type="tel" name="phone" placeholder="06.XX.XX.XX.XX" required>
+            </label>
+            <label for="town">Ville: 
+                <input type="text" name="town" placeholder="Votre ville" required>
+            </label>
+            <label for="text">Commentaire:
+                <textarea name="text" cols="60" rows="15" placeholder="Votre commentaire"></textarea>
+            </label>
+        </form>
     </main>
 
     <footer>
