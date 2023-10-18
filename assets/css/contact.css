@@ -1,0 +1,23 @@
+main {
+    padding-top: 2rem;
+}
+
+form,
+textarea {
+    width: 90vw;
+    margin: auto;
+}
+
+input {
+    height: 2rem;
+    margin-bottom: .8rem;
+}
+
+#submit {
+    background-color: #419197;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}

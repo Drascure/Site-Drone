@@ -6,6 +6,7 @@
     <script src="./assets/js/script.js" defer></script>
     <title>MasterDrone</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
@@ -37,23 +38,23 @@
     </header>
 
     <main>
-        <p>contact</p>
         <form action="">
             <label for="firstname">Prénom:
-                <input type="text" name="firstname" placeholder="Votre prénom" required>
+                <input type="text" name="firstname" required>
             </label>
             <label for="lastname">Nom: 
-                <input type="text" name="lastname" placeholder="Votre nom" required>
+                <input type="text" name="lastname" required>
             </label>
             <label for="phone">Téléphone: 
-                <input type="tel" name="phone" placeholder="06.XX.XX.XX.XX" required>
+                <input type="tel" name="phone" required>
             </label>
             <label for="town">Ville: 
-                <input type="text" name="town" placeholder="Votre ville" required>
+                <input type="text" name="town" required>
             </label>
             <label for="text">Commentaire:
-                <textarea name="text" cols="60" rows="15" placeholder="Votre commentaire"></textarea>
+                <textarea name="text" cols="60" rows="15"></textarea>
             </label>
+            <input type="submit" value="Envoyez" id="submit">
         </form>
     </main>
 
