@@ -125,7 +125,7 @@ header #header_about {
 .contact {
     padding: .5rem 1rem;
     margin: 1rem 0;
-    background-color: #419197;
+    background-color: #5B9A8B;
     color: white;
     width: fit-content;
     border-radius: 10px;
@@ -174,7 +174,7 @@ section .shooting:hover {
 
 footer {
     height: 15vh;
-    background-color: #12486B;
+    background-color: #252B48;
     display: flex;
     align-items: center;
     justify-content: space-between;
