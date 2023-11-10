@@ -3,4 +3,6 @@ import { initMenu } from "./modules/menu.js";
 
 globalThis.menuEntries = menuEntries;
 
+document.querySelector("#burger")
+
 initMenu();
