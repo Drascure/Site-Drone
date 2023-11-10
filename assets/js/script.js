@@ -1,5 +1,6 @@
-document.getElementById("burger").addEventListener("click",function(){
-    let menu = document.querySelector("#nav_header ul");
-    menu.classList.toggle("hide");
-    menu.classList.toggle("show");
-})
+import { menuEntries } from "./modules/menuEntries.js";
+import { initMenu } from "./modules/menu.js";
+
+globalThis.menuEntries = menuEntries;
+
+initMenu();
