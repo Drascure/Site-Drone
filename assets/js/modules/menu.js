@@ -2,6 +2,7 @@ import { menuEntries } from "./menuEntries.js";
 
 const initMenu = () => {
     const ulPrincipal = document.createElement("ul");
+    ulPrincipal.classList.add("hide");
     document.querySelector("#menu").append(ulPrincipal);
     menuEntries.forEach((element, index) => {
         let htmlElem;
