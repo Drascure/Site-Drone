@@ -2,7 +2,7 @@ import { menuEntries } from "./modules/menuEntries.js";
 import { initMenu } from "./modules/menu.js";
 
 globalThis.menuEntries = menuEntries;
-initMenu();
+initMenu("#menu");
 const menuUl = document.querySelector("#menu ul")
 
 

@@ -1,21 +1,24 @@
 import { menuEntries } from "./menuEntries.js";
 
-const initMenu = () => {
+const initMenu = (idDiv) => {
     const ulPrincipal = document.createElement("ul");
-    ulPrincipal.classList.add("hide");
-    document.querySelector("#menu").append(ulPrincipal);
-    menuEntries.forEach((element, index) => {
+    if (idDiv = "#menu") {
+        ulPrincipal.classList.add("hide");
+    }
+    document.querySelector(idDiv).append(ulPrincipal);
+    menuEntries.forEach((element) => {
         let htmlElem;
+        //vérification de l'existence du lien
         if (!element.link) {
             htmlElem = "div";
         }else{
             htmlElem = "a";
         }
         const aLi = document.createElement(htmlElem);
-        aLi.href = "./" + element.link;
+        aLi.href = "./" + element.link + ".html";
         ulPrincipal.append(aLi);
         const liPrincipal = document.createElement('li');
-        liPrincipal.id = "liPrincipal" + index;
+        liPrincipal.id = idDiv + element.link;
         liPrincipal.textContent = element.name;
         aLi.append(liPrincipal);
     });

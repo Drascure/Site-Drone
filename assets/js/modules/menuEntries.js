@@ -1,15 +1,15 @@
 const menuEntries = [
     {
         name: "Clichés",
-        link: "photo.html"
+        link: "photo"
     },
     {
         name: "A propos",
-        link: "a-propos.html"
+        link: "a-propos"
     },
     {
         name: "Contact",
-        link: "contact.html"
+        link: "contact"
     }
 ];
 
