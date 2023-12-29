@@ -232,9 +232,9 @@ main section {
 }
 
 footer {
-  position: relative;
+  position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   background-color: #252b48;
   padding: .5rem 0;
 }
@@ -266,5 +266,29 @@ footer #footer_nav {
 }
 
 @media screen and (min-width:280px) {
+
+  header h1 {
+    font-size: 1.5rem;
+}
+
+footer #footer_icon,
+footer #footer_nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+
+footer #footer_icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: .5rem;
+}
+
+footer #footer_nav {
+  width: 100vw;
+}
 
 }
