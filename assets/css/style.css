@@ -162,9 +162,11 @@ main section {
 /* Carrousel */
 .container {
     margin: 0 auto;
-    width: 80vw;
+    width: 90vw;
+    height: 25vh;
     position: relative;
     perspective: 1000px;
+    overflow: hidden;
 }
 
 .carousel {
@@ -229,12 +231,11 @@ main section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 1.5rem;
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
+  position: relative;
   background-color: #252b48;
   padding: .5rem 0;
 }
@@ -271,24 +272,6 @@ footer #footer_nav {
     font-size: 1.5rem;
 }
 
-footer #footer_icon,
-footer #footer_nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  margin: auto;
-}
 
-footer #footer_icon {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: .5rem;
-}
-
-footer #footer_nav {
-  width: 100vw;
-}
 
 }

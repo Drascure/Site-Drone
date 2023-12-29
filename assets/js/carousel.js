@@ -1,10 +1,10 @@
 const carousel = document.querySelector(".carousel");
 let currdeg = 0;
 
-document.querySelector(".next").addEventListener("click", (e) => rotate(e, "n"));
-document.querySelector(".prev").addEventListener("click", (e) => rotate(e, "p"));
+document.querySelector(".next").addEventListener("click", () => rotate("n"));
+document.querySelector(".prev").addEventListener("click", () => rotate("p"));
 
-function rotate(e, direction) {
+function rotate(direction) {
   if (direction === "n") {
     currdeg = currdeg - 90;
   }
@@ -17,5 +17,3 @@ function rotate(e, direction) {
   carousel.style.mozTransform = `rotateY(${currdeg}deg)`;
   carousel.style.oTransform = `rotateY(${currdeg}deg)`;
 }
-
-export {rotate};
