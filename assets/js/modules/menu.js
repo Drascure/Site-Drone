@@ -1,13 +1,14 @@
-import { menuEntries } from "./menuEntries.js";
+// import { menuEntries } from "./menuEntries.js";
 
 const initMenu = (idDiv) => {
     const ulPrincipal = document.createElement("ul");
-    if (idDiv = "#menu") {
+    if (idDiv == "#menu") {
         ulPrincipal.classList.add("hide");
     }
+    //Le append n'est pas considéré comme une fonction ici
     document.querySelector(idDiv).append(ulPrincipal);
     menuEntries.forEach((element) => {
-        let htmlElem;
+        let htmlElem = "";
         //vérification de l'existence du lien
         if (!element.link) {
             htmlElem = "div";

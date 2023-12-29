@@ -34,7 +34,7 @@ ul {
 /* ++++++++++++++++++++++++++++++++HEADER+++++++++++++++++++++++++++++++++++++++++ */
 header {
   position: relative;
-  height: 35vh;
+  height: 45vh;
   background-image: url(../img/route-accueil-min.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -46,6 +46,7 @@ header {
 header h1 {
     position: relative;
     color: rgb(0, 0, 0);
+    font-size: 1rem;
 }
 
 /* Nav du header */
@@ -74,6 +75,15 @@ header #nav_header {
   margin: 0 0.8rem;
 }
 
+#nav_header a,
+section a,
+#footer_nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  /* text-shadow: 0px 0px 5px rgba(0, 0, 0, 1); */
+  font-size: 150%;
+}
+
 #nav_header ul {
   overflow: hidden;
   position: absolute;
@@ -82,23 +92,15 @@ header #nav_header {
   top: 110%;
   width: 50%;
   transform: translateX(-50%);
-  background-color: rgba(255, 255, 255, 0.39);
+  background-color: rgba(255, 255, 255, 0.877);
   border-radius: 15px;
-  font-size: 80%;
+  font-size: 60%;
 }
 
 #nav_header ul li {
   margin: 1rem;
 }
 
-#nav_header a,
-section a,
-#footer_nav a {
-  text-decoration: none;
-  color: white;
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
-  font-size: 150%;
-}
 
 div a {
   text-decoration: none;
@@ -106,7 +108,7 @@ div a {
 }
 
 #nav_header a:visited {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 #nav_header .hide {
@@ -120,7 +122,7 @@ div a {
 #nav_header #log {
   display: flex;
   justify-content: space-around;
-  width: 100px;
+  width: 25vw;
   font-size: 1.5rem;
 }
 
@@ -133,7 +135,7 @@ header #header_about {
 
 .contact {
   padding: 0.5rem 1rem;
-  margin: 1rem 0;
+  margin: 1rem 1rem;
   background-color: #5b9a8b;
   color: white;
   width: fit-content;
@@ -149,7 +151,7 @@ header #header_about {
 main h2 {
   text-align: center;
   margin: 2rem 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 main section {
@@ -166,7 +168,7 @@ main section {
 }
 
 .carousel {
-    height: 100%;
+    height: 160px;
     width: 100%;
     position: relative;
     transform-style: preserve-3d;
@@ -178,7 +180,6 @@ main section {
 .shooting {
     display: block;
     position: absolute;
-    width: 80%;
     right: 0;
     left: 0;
     margin: auto;
@@ -200,13 +201,14 @@ main section {
 .next,
 .prev {
   position: absolute;
-  top: 100px;
-  padding: 2em 1em;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 1em .5em;
   cursor: pointer;
   background: #cccccc8c;
   border-radius: 5px;
 }
-.next:hover,
+/* .next:hover,
 .prev:hover {
   color: #000;
 }
@@ -214,7 +216,7 @@ main section {
 .prev:active {
   top: 104px;
   box-shadow: 0 1px 0 #999;
-}
+} */
 .next {
   right: .2em;
 }
@@ -230,30 +232,39 @@ main section {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  position: relative;
+  bottom: 0;
+  width: 100%;
   background-color: #252b48;
+  padding: .5rem 0;
 }
 
 footer #footer_icon,
 footer #footer_nav {
-  height: 7vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   margin: auto;
+}
+
+footer #footer_icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: .5rem;
 }
 
 footer #footer_nav {
   width: 60vw;
 }
 
-footer #footer_icon {
-  width: 40vw;
-}
 
 .icon_footer {
   font-size: 2rem;
   color: #f5fccd;
+}
+
+@media screen and (min-width:280px) {
+
 }
